@@ -104,9 +104,9 @@ exports.getCheckout = (req, res, next) => {
     path: '/checkout',
     pageTitle: 'Checkout'
   });
-};
+}  ;
 
-
+   
 
 exports.postCartDeleteProduct = (req, res, next) => {
   const prodId = req.body.productId;
